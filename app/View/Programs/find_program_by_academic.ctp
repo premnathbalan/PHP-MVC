@@ -1,1 +1,0 @@
-<?php echo $this->Form->input('Student.program_id', array('label'=>'Specialisation', 'empty' => __("----- Specialisation -----"),'class'=>'js-program','required'=>'')); ?>
