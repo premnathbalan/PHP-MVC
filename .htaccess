@@ -1,0 +1,17 @@
+<IfModule mod_php5.c>
+php_value max_execution_time 1000000
+php_value memory_limit 64000M
+</IfModule>
+
+php_value max_input_vars 1000000
+php_value suhosin.post.max_vars 1000000
+php_value suhosin.request.max_vars 1000000
+
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteRule ^$ app/ [L]
+	RewriteRule (.*) app/$1 [L]
+</IfModule>
+<IfModule mod_php5.c>
+  php_value date.timezone "Europe/Paris"
+</IfModule>

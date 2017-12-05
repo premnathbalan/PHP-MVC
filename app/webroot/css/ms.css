@@ -1,0 +1,87 @@
+	* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	}
+	@page {
+    size: A3;
+    margin: 0mm;
+	}
+	@media print {
+	    .page { 
+	        margin: 0mm;
+	        border: initial;
+	        border-radius: initial;
+	        width: initial;
+	        min-height: initial;
+	        box-shadow: initial;
+	        background: initial;
+	        page-break-after: always;
+	    }
+	}
+	@media print {
+	    a {
+	        display:none;
+	    }
+	}
+	
+	@media screen and projection {
+	    a {
+	        display:inline;
+	    }
+	}
+	body{margin:10px 0 0;padding:0; }
+	.page {
+	    margin: 0;
+	    background-color: #000000;
+	    font: 9pt Arial, Helvetica, sans-serif;
+	    width: 42cm;
+	    height: 29.0cm;
+	    padding:25px 22px 25px 15px/* pcl6 */; /*35px 20px 3px 17px brother*/
+	    /*margin: 4mm auto;
+	    border: 1px #D3D3D3 solid; */
+	    border-radius: 0px;
+	    background: white;
+	   /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+	}
+	.consolidoutertbl{width: 100%;}
+	.consolidtbl{
+		border: 1px solid #000;
+		border-collapse: collapse;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.consolidtbl td, .consolidtbl th{
+		border: 1px solid #000;
+		margin: 0;
+		padding: 0;		
+		font-weight:normal;
+	}
+	.msHeader{font: 8pt Arial,Helvetica,sans-serif !important;}
+	.msColm{font: 8.5pt Arial,Helvetica,sans-serif !important;}
+	.txtind td{text-indent: 5px;}
+	.mstxtind td{text-indent: 5px;}
+	.boder_0{border: 0 !important;}
+
+	.bodertop_0{
+		border-top: 0px solid #000 !important;
+	}
+	.boderrht_0{
+		border-right: 0px solid #000 !important;
+	}
+	.boderbot_0{
+		border-bottom: 0px solid #000 !important;
+	}
+	.boderleft_0{
+		border-left: 0px solid #000 !important;
+	}
+	.min-hei79{height: 70px;}
+	.pad0{padding: 0 !important}
+	.mar0{margin: 0 !important}
+	.h100{height: 100%;}
+	
+	.msrow {
+		height: 722px;
+	}	
+	.cMProfTitle td{height:20px;}/*height:25px;*/
+	.cMGrade td{height:20px;}

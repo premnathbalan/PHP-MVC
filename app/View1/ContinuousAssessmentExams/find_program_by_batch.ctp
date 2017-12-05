@@ -1,0 +1,1 @@
+<?php echo $this->Form->input('program_id', array('label'=>'Specialisation', 'class' => 'js-program', 'options' => $programs, 'empty' => '---Select Specialisation---')); ?>

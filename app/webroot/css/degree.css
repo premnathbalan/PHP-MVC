@@ -1,0 +1,29 @@
+@font-face {
+	font-family:'CopperplateGothic-Bold';
+	src: url('../fonts/CopperplateGothic-Bold.eot');
+	src: url('../fonts/CopperplateGothic-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/CopperplateGothic-Bold.woff') format('woff'),
+		url('../fonts/CopperplateGothic-Bold.ttf') format('truetype'),
+		url('../fonts/CopperplateGothic-Bold.svg#CopperplateGothic-Bold') format('svg');
+	
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-F002;
+}
+
+@font-face {
+    font-family: 'baminiplain';
+    src: url('../fonts/bamini_plain-webfont.woff2') format('woff2'),
+         url('../fonts/bamini_plain-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {font-family: 'Arial';src: url('../fonts/Arial.ttf') format('truetype');}
+@font-face {font-family: 'Garamond';src: url('../fonts/Garamond.ttf') format('truetype');}
+@font-face {font-family: 'Microsoft Sans Serif';src: url('../fonts/Microsoft Sans Serif.ttf') format('truetype');}
+@font-face {font-family: 'Verdana';src: url('../fonts/Verdana.ttf') format('truetype');}
+
+@font-face {font-family: 'baamini';src: url('../fonts/baamini.ttf') format('truetype');}
+.baamini{font-family: 'baminiplain', Helvetica, sans-serif;}
